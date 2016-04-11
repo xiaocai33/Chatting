@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		338C6DB41CBBEF0F00060046 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338C6DB31CBBEF0F00060046 /* main.m */; };
 		338C6DB71CBBEF0F00060046 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338C6DB61CBBEF0F00060046 /* AppDelegate.m */; };
-		338C6DBA1CBBEF0F00060046 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338C6DB91CBBEF0F00060046 /* ViewController.m */; };
-		338C6DBD1CBBEF0F00060046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338C6DBB1CBBEF0F00060046 /* Main.storyboard */; };
-		338C6DBF1CBBEF0F00060046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338C6DBE1CBBEF0F00060046 /* Assets.xcassets */; };
-		338C6DC21CBBEF0F00060046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338C6DC01CBBEF0F00060046 /* LaunchScreen.storyboard */; };
 		338C6DCD1CBBEF0F00060046 /* ChattingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338C6DCC1CBBEF0F00060046 /* ChattingTests.m */; };
 		338C6DD81CBBEF0F00060046 /* ChattingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338C6DD71CBBEF0F00060046 /* ChattingUITests.m */; };
+		338C6DE61CBBEF6E00060046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338C6DE51CBBEF6E00060046 /* Assets.xcassets */; };
+		338C6DE81CBBEF7D00060046 /* chatserver.py in Resources */ = {isa = PBXBuildFile; fileRef = 338C6DE71CBBEF7D00060046 /* chatserver.py */; };
+		338C6DEA1CBBEF8500060046 /* liaotian.png in Resources */ = {isa = PBXBuildFile; fileRef = 338C6DE91CBBEF8500060046 /* liaotian.png */; };
+		338C6DED1CBBEF8B00060046 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338C6DEC1CBBEF8B00060046 /* ViewController.m */; };
+		338C6DF21CBBEFD700060046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338C6DEE1CBBEFD700060046 /* LaunchScreen.storyboard */; };
+		338C6DF31CBBEFD700060046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338C6DF01CBBEFD700060046 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +41,6 @@
 		338C6DB31CBBEF0F00060046 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		338C6DB51CBBEF0F00060046 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		338C6DB61CBBEF0F00060046 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		338C6DB81CBBEF0F00060046 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		338C6DB91CBBEF0F00060046 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		338C6DBC1CBBEF0F00060046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		338C6DBE1CBBEF0F00060046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		338C6DC11CBBEF0F00060046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338C6DC31CBBEF0F00060046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		338C6DC81CBBEF0F00060046 /* ChattingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChattingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338C6DCC1CBBEF0F00060046 /* ChattingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChattingTests.m; sourceTree = "<group>"; };
@@ -51,6 +48,13 @@
 		338C6DD31CBBEF0F00060046 /* ChattingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChattingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338C6DD71CBBEF0F00060046 /* ChattingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChattingUITests.m; sourceTree = "<group>"; };
 		338C6DD91CBBEF0F00060046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338C6DE51CBBEF6E00060046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		338C6DE71CBBEF7D00060046 /* chatserver.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = chatserver.py; sourceTree = "<group>"; };
+		338C6DE91CBBEF8500060046 /* liaotian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liaotian.png; sourceTree = "<group>"; };
+		338C6DEB1CBBEF8B00060046 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		338C6DEC1CBBEF8B00060046 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		338C6DEF1CBBEFD700060046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		338C6DF11CBBEFD700060046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +105,16 @@
 		338C6DB11CBBEF0F00060046 /* Chatting */ = {
 			isa = PBXGroup;
 			children = (
+				338C6DE71CBBEF7D00060046 /* chatserver.py */,
+				338C6DE91CBBEF8500060046 /* liaotian.png */,
 				338C6DB51CBBEF0F00060046 /* AppDelegate.h */,
 				338C6DB61CBBEF0F00060046 /* AppDelegate.m */,
-				338C6DB81CBBEF0F00060046 /* ViewController.h */,
-				338C6DB91CBBEF0F00060046 /* ViewController.m */,
-				338C6DBB1CBBEF0F00060046 /* Main.storyboard */,
-				338C6DBE1CBBEF0F00060046 /* Assets.xcassets */,
-				338C6DC01CBBEF0F00060046 /* LaunchScreen.storyboard */,
+				338C6DEB1CBBEF8B00060046 /* ViewController.h */,
+				338C6DEC1CBBEF8B00060046 /* ViewController.m */,
+				338C6DF01CBBEFD700060046 /* Main.storyboard */,
+				338C6DEE1CBBEFD700060046 /* LaunchScreen.storyboard */,
 				338C6DC31CBBEF0F00060046 /* Info.plist */,
+				338C6DE51CBBEF6E00060046 /* Assets.xcassets */,
 				338C6DB21CBBEF0F00060046 /* Supporting Files */,
 			);
 			path = Chatting;
@@ -243,9 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				338C6DC21CBBEF0F00060046 /* LaunchScreen.storyboard in Resources */,
-				338C6DBF1CBBEF0F00060046 /* Assets.xcassets in Resources */,
-				338C6DBD1CBBEF0F00060046 /* Main.storyboard in Resources */,
+				338C6DE61CBBEF6E00060046 /* Assets.xcassets in Resources */,
+				338C6DF31CBBEFD700060046 /* Main.storyboard in Resources */,
+				338C6DF21CBBEFD700060046 /* LaunchScreen.storyboard in Resources */,
+				338C6DEA1CBBEF8500060046 /* liaotian.png in Resources */,
+				338C6DE81CBBEF7D00060046 /* chatserver.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				338C6DBA1CBBEF0F00060046 /* ViewController.m in Sources */,
+				338C6DED1CBBEF8B00060046 /* ViewController.m in Sources */,
 				338C6DB71CBBEF0F00060046 /* AppDelegate.m in Sources */,
 				338C6DB41CBBEF0F00060046 /* main.m in Sources */,
 			);
@@ -308,20 +316,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		338C6DBB1CBBEF0F00060046 /* Main.storyboard */ = {
+		338C6DEE1CBBEFD700060046 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				338C6DBC1CBBEF0F00060046 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		338C6DC01CBBEF0F00060046 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				338C6DC11CBBEF0F00060046 /* Base */,
+				338C6DEF1CBBEFD700060046 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		338C6DF01CBBEFD700060046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				338C6DF11CBBEFD700060046 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
